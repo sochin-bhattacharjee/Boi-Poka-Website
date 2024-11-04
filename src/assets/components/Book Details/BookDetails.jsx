@@ -15,7 +15,7 @@ const BookDetails = () => {
     const {image , bookName} = book;
     return (
         <div>
-            <h1>Book Name : {bookId}</h1>
+            <h1>Book Name : {bookName}</h1>
             <img className='h-48 w-36' src={image} alt="" />
         </div>
     );
